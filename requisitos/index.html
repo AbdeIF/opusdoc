@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://github.com/ruanvcg/opusdoc.git/requisitos/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Levantamento de Requisitos - opus</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Levantamento de Requisitos";
+        var mkdocs_page_input_path = "requisitos.md";
+        var mkdocs_page_url = "/ruanvcg/opusdoc.git/requisitos/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/rust.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> opus
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../introducao/">Introdução</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Levantamento de Requisitos</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#tecnica-de-elicitacao-de-requisitos">Técnica de Elicitação de Requisitos:</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#resumo-dos-resultados-da-pesquisa">Resumo dos Resultados da Pesquisa:</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#requisitos-funcionais">Requisitos Funcionais:</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#requisitos-nao-funcionais">Requisitos Não Funcionais:</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../arquitetura/">Representação Arquitetural</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../estilos/">Guia de Estilos</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../tecnologias/">Linguagens e Tecnologias</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../cronogramas/">Cronogramas</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../riscos/">Planos de Risco</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../anexos/">Anexos</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">opus</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Levantamento de Requisitos</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="levantamento-de-requisitos">Levantamento de Requisitos</h1>
+<h3 id="tecnica-de-elicitacao-de-requisitos">Técnica de Elicitação de Requisitos:</h3>
+<p>A coleta dos requisitos foi realizada por meio de contato e pesquisa com os responsáveis pela administração do grupo de ofertas de emprego no WhatsApp. Os gráficos com os resultados da pesquisa estão anexados à documentação. Esse processo de contato com os requisitantes permitiu a construção das tabelas de requisitos apresentadas a seguir.</p>
+<h3 id="resumo-dos-resultados-da-pesquisa">Resumo dos Resultados da Pesquisa:</h3>
+<p>Os resultados coletados através da pesquisa aplicada com os requisitantes do projeto se mostraram positivas quanto a aceitação e usabilidade do website quando desenvolvido. Majoritariamente, as respostas e sugestões dos candidatos tendem a um website que atenderá boa parte dos que buscam novas oportunidades de entrar no mercado seja por meio de contratos do tipo integral, meio período ou estágios.</p>
+<p>Embora os resultados de candidatos tenha sido positivo, as respostas de empregadores carecem de dados consistentes, apenas 1 resposta. Com isso, sugere-se a busca por mais respostas e sugestões deste nível de usuário para o website.</p>
+<p>A seguir, um levantamento dos requisitos construído a partir dos diálogos e pesquisas realizadas:</p>
+<h3 id="requisitos-funcionais">Requisitos Funcionais:</h3>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Identificação</th>
+<th>Classificação</th>
+<th>Ator</th>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[RF01]</td>
+<td>Cadastro de Candidatos</td>
+<td>Essencial</td>
+<td>Candidato</td>
+<td>O sistema web deverá permitir o cadastro de candidatos por meio de Nome Completo, Data de Nascimento, Email, Senha, Telefone, Endereço, Sobre, Experiências, Formações, Foto de Perfil e Currículo.</td>
+</tr>
+<tr>
+<td>[RF02]</td>
+<td>Cadastro de Empregadores</td>
+<td>Essencial</td>
+<td>Empregador</td>
+<td>O sistema web deverá permitir o cadastro de empregadores por meio de Nome da Empresa / Empregador, Foto de Perfil, Data de Nascimento, Email, Telefone, Endereço e Sobre.</td>
+</tr>
+<tr>
+<td>[RF03]</td>
+<td>Login de Candidatos / Empregadores</td>
+<td>Essencial</td>
+<td>Candidato / Empregador</td>
+<td>O sistema web deverá permitir o login dos candidatos e empregadores por meio de email e senha.</td>
+</tr>
+<tr>
+<td>[RF04]</td>
+<td>Recuperar Senha</td>
+<td>Essencial</td>
+<td>Candidato / Empregador</td>
+<td>O sistema web deverá permitir que o Candidato e Empregador recuperem e redefinam a senha de seu cadastro através do e-mail.</td>
+</tr>
+<tr>
+<td>[RF05]</td>
+<td>Excluir Cadastro</td>
+<td>Essencial</td>
+<td>Candidato / Empregador</td>
+<td>O sistema web deverá permitir que o Candidato e o empregador façam a exclusão de seu cadastro.</td>
+</tr>
+<tr>
+<td>[RF06]</td>
+<td>Edição de Cadastro</td>
+<td>Essencial</td>
+<td>Candidato / Empregador</td>
+<td>O sistema web deverá permitir que o Candidato e o Empregador atualizem as informações de cadastro.</td>
+</tr>
+<tr>
+<td>[RF07]</td>
+<td>Perfil de Candidato</td>
+<td>Essencial</td>
+<td>Candidato</td>
+<td>O sistema web deverá possuir uma rota com todas as informações cadastradas do Candidato.</td>
+</tr>
+<tr>
+<td>[RF08]</td>
+<td>Postar Vagas</td>
+<td>Essencial</td>
+<td>Empregador</td>
+<td>O sistema web deverá permitir que o empregador faça a puclicação de novas vagas com as seguintes informações: Nome da vaga, Nome da empresa, Logo da empresa, Localização, Data de postagem, Tipo de contrato e Sobre a vaga.</td>
+</tr>
+<tr>
+<td>[RF09]</td>
+<td>Listagem de Vagas</td>
+<td>Essencial</td>
+<td>Sistema</td>
+<td>O sistema web deverá possuir uma seção com as vagas disponiveis e destaques na seção inicial.</td>
+</tr>
+<tr>
+<td>[RF10]</td>
+<td>Buscar Vagas</td>
+<td>Importante</td>
+<td>Candidato</td>
+<td>O sistema web deverá permitir a busca por vagas, pelo nome, localização ou categoria.</td>
+</tr>
+<tr>
+<td>[RF11]</td>
+<td>Notificar Vagas</td>
+<td>Importante</td>
+<td>Sistema</td>
+<td>O sistema web deverá notificar o Candidato referente a novas vagas e sobre vagas em que o Candidato se candidatou.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="requisitos-nao-funcionais">Requisitos Não Funcionais:</h3>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Identificação</th>
+<th>Classificação</th>
+<th>Ator</th>
+<th>Objetivo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[RNF01]</td>
+<td>Usabilidade</td>
+<td>Essencial</td>
+<td>UX/UI Designer</td>
+<td>O site deve ser projetado com foco na usabilidade, proporcionando uma experiência de usuário intuitiva e agradável seguindo sempre o guia de estilos. Deve ser fácil de navegar e de entender, com interfaces de usuário amigáveis, eficientes e responsivas</td>
+</tr>
+<tr>
+<td>[RNF02]</td>
+<td>Desempenho</td>
+<td>Importante</td>
+<td>Desenvolvedor</td>
+<td>O site deve ser rápido para garantir que os usuários não fiquem esperando muito tempo para carregar as páginas.</td>
+</tr>
+<tr>
+<td>[RNF03]</td>
+<td>Segurança</td>
+<td>Importante</td>
+<td>Desenvolvedor</td>
+<td>O site deve implementar medidas de segurança eficazes para proteger as informações dos usuários, incluindo dados pessoais e de pagamento. Isso inclui criptografia de dados, autenticação segura e proteção contra ameaças cibernéticas.</td>
+</tr>
+<tr>
+<td>[RNF04]</td>
+<td>Manutenibilidade</td>
+<td>Importante</td>
+<td>Desenvolvedor</td>
+<td>O site deve ser de fácil manutenibilidade para facilitar a correção de bugs.</td>
+</tr>
+<tr>
+<td>[RNF05]</td>
+<td>Escalabilidade</td>
+<td>Importante</td>
+<td>Desenvolvedor</td>
+<td>O site deve ser projetado com escalabilidade em mente, garantindo que possa lidar com um aumento no número de usuários e conteúdos sem comprometer o desempenho. A arquitetura do site deve ser robusta e flexível</td>
+</tr>
+<tr>
+<td>[RNF06]</td>
+<td>Atualizações Contínuas</td>
+<td>Importante</td>
+<td>Desenvolvedor</td>
+<td>O site deve ser atualizada regularmente.</td>
+</tr>
+<tr>
+<td>[RNF07]</td>
+<td>Compatibilidade</td>
+<td>Essencial</td>
+<td>Desenvolvedor</td>
+<td>O site deve ser compatível com diversos dispositivos.</td>
+</tr>
+<tr>
+<td>[RNF08]</td>
+<td>Disponibilidade</td>
+<td>Essencial</td>
+<td>Desenvolvedor</td>
+<td>O site deve estar disponivel 24 hrs por dia.</td>
+</tr>
+<tr>
+<td>[RNF09]</td>
+<td>Conformidades com a legislação local</td>
+<td>Essencial</td>
+<td>Desenvolvedor</td>
+<td>O site deve seguir a legislação do país em que se encontra.</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../introducao/" class="btn btn-neutral float-left" title="Introdução"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../arquitetura/" class="btn btn-neutral float-right" title="Representação Arquitetural">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../introducao/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../arquitetura/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
